@@ -8,7 +8,7 @@ It takes sales data, cleans & transforms it using **Python + Pandas**, and then 
 - Extracts data from MySQL  
 - Transforms it (adds Revenue, Profit, Flags, Year, Month)  
 - Loads the cleaned data back into MySQL
-- 
+
 ## Tech used
 - Python  
 - Pandas  
