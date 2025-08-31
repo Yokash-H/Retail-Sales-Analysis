@@ -20,4 +20,4 @@ Run it
 3. Update your DB credentials
 4. Run
 
-Just a small step towards real-world **data pipelines**
+Just a small step towards real world **data pipelines**
