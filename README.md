@@ -7,8 +7,8 @@ It takes sales data, cleans & transforms it using **Python + Pandas**, and then 
 ## What it does
 - Extracts data from MySQL  
 - Transforms it (adds Revenue, Profit, Flags, Year, Month)  
-- Loads the cleaned data back into MySQL  
-
+- Loads the cleaned data back into MySQL
+- 
 ## Tech used
 - Python  
 - Pandas  
@@ -16,8 +16,8 @@ It takes sales data, cleans & transforms it using **Python + Pandas**, and then 
 
 Run it
 1. Clone the repo  
-2. Install requirements → `pip install -r requirements.txt`  
-3. Update your DB credentials in `Extract.py`  
-4. Run → `python ETL/Extract.py`  
+2. Install requirements
+3. Update your DB credentials
+4. Run
 
 Just a small step towards real-world **data pipelines**
