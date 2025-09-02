@@ -7,10 +7,10 @@ This project implements an ETL pipeline for retail sales data. The workflow extr
 
 ## Features
 
-Extraction: Data is pulled from MySQL.
-Transformation: Additional fields such as Revenue, Profit, Profit Flags, Year, and Month are derived.
-Loading: The transformed dataset is written back into MySQL.
-Visualization: Tableau dashboards enable interactive analysis of sales and profitability.
+Extraction: Data is pulled from MySQL. 
+Transformation: Additional fields such as Revenue, Profit, Profit Flags, Year, and Month are derived. 
+Loading: The transformed dataset is written back into MySQL. 
+Visualization: Tableau dashboards enable interactive analysis of sales and profitability. 
 
 ## Tools and Technologies
 
@@ -21,14 +21,14 @@ Tableau
 
 ## Key Insights
 
-Profit/Loss in Sub-Category
-Quantity sold in a region
-Revenue by year for category
+Profit/Loss in Sub-Category 
+Quantity sold in a region 
+Revenue by year for category 
 
 ## Getting Started
 
-Clone the repository
-Install dependencies
-Update database credentials
-Run the ETL script
-Explore the Tableau dashboard
+Clone the repository 
+Install dependencies 
+Update database credentials 
+Run the ETL script 
+Explore the Tableau dashboard 
