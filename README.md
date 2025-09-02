@@ -1,23 +1,29 @@
 # Retail Sales Analysis
-ETL pipeline for retail sales data using Python, Pandas, and MySQL  
+ETL pipeline for retail sales data using Python, Pandas, MySQL and Tableau for visualization  
 
-This is a simple **ETL project** I built to learn data engineering concepts.  
-It takes sales data, cleans & transforms it using **Python + Pandas**, and then loads it into **MySQL** for analysis.  
+Overview
+This project implements an ETL pipeline for retail sales data. The workflow extracts data from a MySQL database, applies transformations such as revenue and profit calculations, and reloads the processed dataset for further use. The pipeline is supported with an interactive Tableau dashboard to provide actionable insights into sales trends and performance.
 
-## What it does
-- Extracts data from MySQL  
-- Transforms it (adds Revenue, Profit, Flags, Year, Month)  
-- Loads the cleaned data back into MySQL
+Features
+Extraction: Data is pulled from MySQL.
+Transformation: Additional fields such as Revenue, Profit, Profit Flags, Year, and Month are derived.
+Loading: The transformed dataset is written back into MySQL.
+Visualization: Tableau dashboards enable interactive analysis of sales and profitability.
 
-## Tools used
-- Python  
-- Pandas  
-- MySQL  
+Tools and Technologies
+Python
+Pandas
+MySQL
+Tableau
 
-Run it
-1. Clone the repo  
-2. Install requirements
-3. Update your DB credentials
-4. Run
+Key Insights
+Sales and profit trends across categories and regions
+Time-based analysis by year and month
+Profitability distribution with flagging for decision-making
 
-Just a small step towards real world **data pipelines**
+Getting Started
+Clone the repository
+Install dependencies
+Update database credentials
+Run the ETL script
+Explore the Tableau dashboard
